@@ -33,8 +33,8 @@ gulp.task('js', function() {
 //Слежка
 gulp.task('watch', function() {
 	gulp.watch(['./app/*.html'], ['html']);
-	gulp.watch(['./app/*.css'], ['css']);
-	gulp.watch(['./app/*.js'], ['js']);
+	gulp.watch(['./app/css/*.css'], ['css']);
+	gulp.watch(['./app/js/*.js'], ['js']);
 });
 
 //Задача по умолчанию
